@@ -1,0 +1,17 @@
+# ==========================================================
+# Direct Python dependencies for the AI-Doc-Scraper project
+# Last updated: 2025-07-20
+# ==========================================================
+
+# Core web scraping and parsing libraries
+aiohttp             # For asynchronous HTTP requests
+beautifulsoup4      # For parsing HTML content
+markdownify         # For converting HTML to Markdown
+requests            # For initial synchronous HTTP requests
+
+# AI validation libraries
+google-generativeai # For interacting with Google Gemini API
+
+# Utility libraries
+python-dotenv       # For loading environment variables from .env file
+tqdm                # For displaying beautiful progress bars

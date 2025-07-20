@@ -1,0 +1,29 @@
+# 字节码和缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量文件 (极其重要，绝不能上传)
+.env
+
+# 抓取结果输出目录
+scraped_docs_*
+ros_documentation_md/ # 保留旧的，以防万一
+
+# IDE / 编辑器配置文件
+.vscode/
+.idea/
+*.swp
+
+# 依赖管理工具日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Playwright浏览器下载缓存
+.ms-playwright/
