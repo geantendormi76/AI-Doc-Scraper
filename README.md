@@ -42,7 +42,8 @@
     ```bash
     python3 -m venv .venv
     source .venv/bin/activate
-    # --- 核心修正：使用正确的依赖文件 ---
+    
+    # 安装依赖
     pip install -r requirements.in
     ```
 3.  **配置API密钥**
